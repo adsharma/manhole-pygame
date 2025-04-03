@@ -80,7 +80,7 @@ next_spawn_delay = random.randint(PEDESTRIAN_SPAWN_RATE_MIN, PEDESTRIAN_SPAWN_RA
 
 # --- Screen Setup ---
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Pygame Manhole Cover - Two Rows")
+pygame.display.set_caption("Manhole Game")
 
 # --- Helper Functions ---
 def create_pedestrian():
